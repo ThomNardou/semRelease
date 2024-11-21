@@ -1,3 +1,3 @@
 # semRelease
 
-test
+test2
