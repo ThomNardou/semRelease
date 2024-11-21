@@ -57,7 +57,7 @@ jobs:
           fi
       - name: display new version
         run: |
-          if [[ "$NEW_VERSION" != "" ]]; then
+          if [[ "$NEW_VERSION" != "$LAST_TAG" ]]; then
             echo "New version is $NEW_VERSION"
           else 
             echo "Ce commit n’a pas conduit à un tag"
